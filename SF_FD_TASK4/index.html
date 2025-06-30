@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Bites</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to Delicious Bites</h2>
+        <p>Experience the taste of delight.</p>
+        <button onclick="showMenu()">See Our Menu</button>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul class="menu-items">
+            <li><strong>Margherita Pizza</strong> - $12</li>
+            <li><strong>Spaghetti Carbonara</strong> - $14</li>
+            <li><strong>Caesar Salad</strong> - $10</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
